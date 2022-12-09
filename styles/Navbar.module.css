@@ -1,0 +1,40 @@
+.navbar {
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbarLogo {
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.linksSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 200px;
+}
+
+.actionsSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+}
+
+.navbarLink {
+  color: var(--theme-text);
+}
+
+.activeLink {
+  color: var(--theme-yellow);
+}
