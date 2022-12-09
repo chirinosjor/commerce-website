@@ -8,10 +8,7 @@ function Layout({ children }) {
     <div>
       <Head>
         <title>Commerce company</title>
-        <meta name="description" content="Created by Jorge Chirinos" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar />
       {children}
     </div>

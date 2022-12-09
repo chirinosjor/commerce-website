@@ -3,10 +3,9 @@
     "prettier",
     "next/core-web-vitals",
     "plugin:prettier/recommended",
-    "eslint:recommended", "plugin:react/recommended",
-    "plugin:css/standard"
+    "eslint:recommended", "plugin:react/recommended"
   ],
-  "plugins": ["prettier", "react", "react-hooks", "css", "plugin:css/recommended"],
+  "plugins": ["prettier", "react", "react-hooks"],
   "rules": {
     "prettier/prettier": [
       "error",
