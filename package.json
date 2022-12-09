@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.0.6",
-    "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
