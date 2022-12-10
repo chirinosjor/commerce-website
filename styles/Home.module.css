@@ -40,3 +40,47 @@
   margin: 0 auto;
   width: 100%;
 }
+
+.contactBackground {
+  background-image: url('/assets/contactBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactTitle {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 0
+}
+
+.contactSubtitle {
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0
+}
+
+.contactButton {
+  background-color: white;
+  color: var(--theme-yellow);
+  border: none;
+  cursor: pointer;
+  height: 80px;
+  width: 350px;
+}
+
+.contactButtonText {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0
+}
