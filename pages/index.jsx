@@ -1,6 +1,8 @@
 import React from 'react';
+import { ReactPhotoCollage } from 'react-photo-collage';
 import styles from '../styles/Home.module.css';
 import { useI18n } from '../context/i18n';
+import { homeCollageSettings } from '../utils/homeCollageSettings';
 
 export default function Home() {
   const { t } = useI18n();
@@ -10,9 +12,15 @@ export default function Home() {
         <img src="/assets/home-cover.svg" alt="Home cover image" />
         <p className={styles.coverText}>{t('HOME_COVER_TEXT')}</p>
       </div>
-      <div className={styles.subtitleContainer}>
+      <div className={styles.sectionContainer}>
         <h2 className={styles.homeSubtitle}>{t('HOME_COMPANY_SUBTITLE')}</h2>
         <p className={styles.homeText}>{t('HOME_COMPANY_TEXT')}</p>
+      </div>
+      <div className={styles.sectionContainer}>
+        <h1 className={styles.homeTitle}>Our products</h1>
+        <div className={styles.imageCollage}>
+          <ReactPhotoCollage {...homeCollageSettings} />
+        </div>
       </div>
     </>
   );
