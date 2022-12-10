@@ -2,7 +2,8 @@ html,
 
 :root {
   --theme-yellow: #BC943C;
-  --theme-text: #404041;
+  --theme-textColor: #404041;
+  --theme-textSize: 1.2rem;
 }
 
 body {
