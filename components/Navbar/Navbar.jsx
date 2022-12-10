@@ -1,14 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { useI18n } from '../context/i18n';
-import styles from '../styles/Navbar.module.css';
+import { useI18n } from '../../context/i18n';
+import styles from './Navbar.module.css';
+import Translate from '../Translate/Translate';
 
 function Navbar() {
-  const { locale, locales, asPath } = useRouter();
   const { t } = useI18n();
-  const restOfLocales = locales.filter((l) => l !== locale);
   return (
     <div className={styles.navbar}>
       <a className={styles.navbarLogo} href="#">
@@ -39,13 +36,7 @@ function Navbar() {
         <a className={styles.navbarLink} href="#">
           Search
         </a>
-        <Link
-          href={asPath}
-          className="text-sm font-semibold"
-          locale={restOfLocales[0]}
-        >
-          🌐 {restOfLocales[0] === 'en' ? '🇺🇸' : '🇪🇸'}
-        </Link>
+        <Translate />
       </div>
     </div>
   );
