@@ -12,10 +12,16 @@
   width: 30%;
 }
 
-.subtitleContainer {
+.sectionContainer {
   width: 80%;
-  margin: 100px auto;
+  margin: 50px auto;
   font-size: 20px;
+}
+
+.homeTitle {
+  font-family: 'Oswald', sans-serif;
+  color: var(--theme-yellow);
+  text-align: center;
 }
 
 .homeSubtitle {
@@ -26,4 +32,11 @@
 .homeText {
   font-size: var(--theme-textSize);
   color: var(--theme-textColor);
+}
+
+.imageCollage {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
 }
