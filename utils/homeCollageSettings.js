@@ -1,6 +1,6 @@
 export const homeCollageSettings = {
   width: '100%',
-  height: ['250px', '250px'],
+  height: ['200px', '200px'],
   layout: [4, 4],
   photos: [
     { source: '/assets/collage/image-1.jpg' },

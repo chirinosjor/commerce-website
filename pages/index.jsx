@@ -17,10 +17,21 @@ export default function Home() {
         <p className={styles.homeText}>{t('HOME_COMPANY_TEXT')}</p>
       </div>
       <div className={styles.sectionContainer}>
-        <h1 className={styles.homeTitle}>Our products</h1>
+        <h1 className={styles.homeTitle}>{t('HOME_OUR_PRODUCTS')}</h1>
         <div className={styles.imageCollage}>
           <ReactPhotoCollage {...homeCollageSettings} />
         </div>
+      </div>
+      <div className={`${styles.contactContainer} ${styles.contactBackground}`}>
+        <div>
+          <h2 className={styles.contactTitle}>{t('HOME_CONTACT_TITLE')}</h2>
+          <h3 className={styles.contactSubtitle}>
+            {t('HOME_CONTACT_SUBTITLE')}
+          </h3>
+        </div>
+        <button className={styles.contactButton}>
+          <p className={styles.contactButtonText}>{t('HOME_CONTACT_BUTTON')}</p>
+        </button>
       </div>
     </>
   );
