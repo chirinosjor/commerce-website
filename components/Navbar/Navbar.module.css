@@ -25,7 +25,3 @@
 .navbarLink {
   color: var(--theme-text);
 }
-
-.activeLink {
-  color: var(--theme-yellow);
-}
