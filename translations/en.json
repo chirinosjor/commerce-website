@@ -13,5 +13,11 @@
   "HOME_OUR_PRODUCTS": "Our Products",
   "HOME_CONTACT_TITLE": "How we may help you?",
   "HOME_CONTACT_SUBTITLE": " Feel free to email us and we will get things moving.",
-  "HOME_CONTACT_BUTTON": "CONTACT"
+  "HOME_CONTACT_BUTTON": "CONTACT",
+  "FOOTER_DESIGNED_BY": "Designed By Webico",
+  "FOOTER_CREATED_BY": "Created by Jorge Chirinos (chirinosjor@gmail.com)",
+  "COMPANY_PHONE": "Phone number",
+  "COMPANY_EMAIL": "Email",
+  "COMPANY_ADDRESS": "Address",
+  "COMPANY_WEBSITE": "Website"
 }

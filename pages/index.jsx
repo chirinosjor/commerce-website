@@ -9,7 +9,11 @@ export default function Home() {
   return (
     <>
       <div className={styles.coverContainer}>
-        <img src="/assets/home-cover.svg" alt="Home cover image" />
+        <img
+          src="/assets/home-cover.svg"
+          alt="Home cover image"
+          className={styles.hero}
+        />
         <p className={styles.coverText}>{t('HOME_COVER_TEXT')}</p>
       </div>
       <div className={styles.sectionContainer}>

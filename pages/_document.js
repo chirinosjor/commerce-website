@@ -1,10 +1,10 @@
 import React from 'react';
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 export default class MyDocument extends Document {
   render() {
     return (
-      <html>
+      <Html>
         <Head>
           <meta name="description" content="Created by Jorge Chirinos" />
           <link rel="icon" href="/favicon.ico" />
@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
