@@ -3,9 +3,13 @@
   color: white;
 }
 
+.hero {
+  width: 100%
+}
+
 .coverText {
   position: absolute;
-  bottom: 150px;
+  bottom: 250px;
   left: 180px;
   font-size: 70px;
   font-weight: bold;

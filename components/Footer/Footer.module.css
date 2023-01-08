@@ -1,0 +1,27 @@
+.container {
+  height: 390px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 80%;
+  margin: 0 auto 20px;
+  font-size: 20px;
+  padding: 20px
+}
+
+.companyInfo {
+  line-height: 12px;
+  margin-top: 30px
+}
+
+.socialNetworks {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  background-color: #664616;
+  color: white;
+}

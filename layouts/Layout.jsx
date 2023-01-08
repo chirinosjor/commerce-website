@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { node } from 'prop-types';
 import Head from 'next/head';
 
@@ -11,6 +12,7 @@ function Layout({ children }) {
       </Head>
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 }

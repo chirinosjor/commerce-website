@@ -12,5 +12,11 @@
   "HOME_OUR_PRODUCTS": "Nuestros productos",
   "HOME_CONTACT_TITLE": "¿Cómo podemos ayudarte?",
   "HOME_CONTACT_SUBTITLE": "No dude en enviarnos un correo electrónico y pondremos las cosas en movimiento.",
-  "HOME_CONTACT_BUTTON": "CONTACTO"
+  "HOME_CONTACT_BUTTON": "CONTACTO",
+  "FOOTER_DESIGNED_BY": "Diseñado por Webico",
+  "FOOTER_CREATED_BY": "Creado por Jorge Chirinos (chirinosjor@gmail.com)",
+  "COMPANY_PHONE": "Número de teléfono",
+  "COMPANY_EMAIL": "Correo electrónico",
+  "COMPANY_ADDRESS": "Dirección",
+  "COMPANY_WEBSITE": "Sitio web"
 }

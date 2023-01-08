@@ -1,13 +1,13 @@
 .linksSection {
   display: flex;
   justify-content: space-between;
-  width: 60%;
 }
 
 .navbarLink {
-color: var(--theme-text);
+  color: var(--theme-text);
+  margin-right: 60px;
 }
 
 .activeLink {
-color: var(--theme-yellow);
+  color: var(--theme-yellow);
 }
